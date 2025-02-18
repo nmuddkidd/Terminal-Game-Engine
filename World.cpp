@@ -1,4 +1,6 @@
+#include <iostream>
 #include "World.h"
+using namespace std;
 
 Board::Board(){
 	doors = (door*) malloc(0);
